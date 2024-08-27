@@ -6,6 +6,7 @@ Task To DO:
     - setup the html and css folder
     - about us, book review, list of books for the year (the month)
     - parallax effect
+    - https://www.free-css.com/free-css-templates/page247/kindle
 - Joy:
     - go on figma and design the wireframes
     - everything scales
