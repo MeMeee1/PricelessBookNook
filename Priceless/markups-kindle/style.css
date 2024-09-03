@@ -529,17 +529,17 @@ button:focus {
 /*--------------------*/
 
 
-#mu-video-review {
-	background-image: url(assets/images/video-review-bg.jpeg);
-	background-attachment: fixed;
-	background-size: cover;
+#mu-gif-review {
+    background: url(C:/Users/USER/PricelessBookNook/Priceless/markups-kindle/assets/images/maybe.gif);
+	background-repeat:repeat;
+	background-size:cover;
 	display: inline;
 	position: relative;
 	float: left;
 	width: 100%;
 }
 
-#mu-video-review:before {
+#mu-gif-review:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -549,23 +549,23 @@ button:focus {
 	opacity: 0.84;
 }
 
-.mu-video-review-area {
+.mu-gif-review-area {
 	display: inline;
 	float: left;
 	padding: 150px 0;
 	width: 100%;
 }
 
-.mu-video-review-area .mu-heading-title, 
-.mu-video-review-area .mu-heading-area p{
+.mu-gif-review-area .mu-heading-title, 
+.mu-gif-review-area .mu-heading-area p{
 	color: #fff;
 }
 
-.mu-video-review-area .mu-header-dot {
+.mu-gif-review-area .mu-header-dot {
 	background-color: #f8f8f8;
 }
 
-.mu-video-review-content {
+.mu-gif-review-content {
 	display: inline;
 	float: left;
 	margin-top: 70px;
@@ -573,7 +573,7 @@ button:focus {
 	padding: 0 10%;
 }
 
-.mu-video-iframe {
+.mu-gif-iframe {
 	height: 550px;
 }
 
@@ -744,7 +744,8 @@ button:focus {
 }
 
 .mu-popular-price-tag {
-	color: #fff;
+	border: 1px solid #fff;
+	color:#fff ;                
 }
 
 .mu-popular-price-tag .mu-order-btn {
