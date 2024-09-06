@@ -103,7 +103,9 @@ h6 {
 
 img {
 	border: none;
-	max-width: 100%;
+	width: 550px;
+	height: 450px;
+	margin-bottom: 500px;
 }
 
 strong {
@@ -507,9 +509,13 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
-	background: #fff;
+	background:#fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
+}
+.mu-book-overview-content img{
+	width: 200px;
+	height: 200px;
 }
 
 .mu-book-overview-icon-box {
@@ -530,7 +536,8 @@ button:focus {
 
 
 #mu-video-review {
-	background-image: url(assets/images/video-review-bg.jpeg);
+	background-image: url(assets/images/feelit.gif);
+	background-color: white;
 	background-attachment: fixed;
 	background-size: cover;
 	display: inline;
@@ -559,6 +566,9 @@ button:focus {
 .mu-video-review-area .mu-heading-title, 
 .mu-video-review-area .mu-heading-area p{
 	color: #fff;
+}
+.mu-book-overview-content a:hover{
+	color: orange;
 }
 
 .mu-video-review-area .mu-header-dot {
@@ -751,7 +761,9 @@ button:focus {
 	background-color: #fff;
 	border: 1px solid #fff;
 }
-
+/*--------------------*/
+/*frequently asked questions*/
+/*--------------------*/
 
 /*--------------------*/
 /* READERS TESTIMONIALS */
@@ -769,7 +781,7 @@ button:focus {
 }
 
 #mu-testimonials::before {
-	background: rgba(0,0,0,0.9);
+	background: black;
 	bottom: 0;
 	content: '';
 	left: 0;
@@ -882,7 +894,7 @@ button:focus {
 .mu-contact-content {
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 5px;
 	width: 100%;
 	padding: 0 20%;
 }
