@@ -137,7 +137,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	color:#f2dede ;
 }
 
 address {
@@ -459,14 +459,14 @@ button:focus {
 /*--------------------*/
 
 
-#mu-book-overview {
+#mu-books {
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-book-overview-area {
+.mu-books-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
@@ -495,14 +495,14 @@ button:focus {
 	margin-bottom: 20px;
 }
 
-.mu-book-overview-content{
+.mu-books-content{
 	display: inline;
 	float: left;
 	margin-top: 70px;
 	width: 100%;
 }
 
-.mu-book-overview-single {
+.mu-books-single {
 	display: inline;
 	float: left;
 	text-align: center;
@@ -512,14 +512,14 @@ button:focus {
 	margin: 10px 0 15px;
 }
 
-.mu-book-overview-icon-box {
+.mu-books-icon-box {
 	font-size: 25px;
 	padding: 5px 12px;
 	margin-bottom: 30px;
 	display: inline-block;
 }
 
-.mu-book-overview-single h4{
+.mu-books-single h4{
 	margin-bottom: 20px;
 }
 
@@ -530,9 +530,9 @@ button:focus {
 
 
 #mu-gif-review {
-    background: url(C:/Users/USER/PricelessBookNook/Priceless/markups-kindle/assets/images/maybe.gif);
-	background-repeat:repeat;
-	background-size:cover;
+    background: url("assets/images/raining.gif");
+	background-attachment: fixed;
+	background-size: cover;
 	display: inline;
 	position: relative;
 	float: left;
@@ -582,58 +582,58 @@ button:focus {
 /*--------------------*/
 
 
-#mu-author {
+#mu-organisation {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-author-area {
+.mu-organisation-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 }
 
-.mu-author-content{
+.mu-organisation-content{
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 
-.mu-author-image {
+.mu-organisation-image {
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-author-info {
+.mu-organisation-info {
 	display: inline;
 	float: left;
 	margin-top: 20px;
 	width: 100%;
 }
 
-.mu-author-info h3 {
+.mu-organisation-info h3 {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 }
 
-.mu-author-info p {
+.mu-organisation-info p {
 	margin-bottom: 20px;
 }
 
-.mu-author-social {
+.mu-organisation-social {
 	display: inline;
 	float: left;
 	margin-top: 25px;
 	width: 100%;
 }
 
-.mu-author-social a {
+.mu-organisation-social a {
 	display: inline-block;
 	font-size: 16px;
 	padding: 5px;
@@ -744,7 +744,7 @@ button:focus {
 }
 
 .mu-popular-price-tag {
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	color:#fff ;                
 }
 
@@ -759,7 +759,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/testimonials-bg.jpeg");
+	background-image: url("assets/images/incase\ new.jfif");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -770,7 +770,7 @@ button:focus {
 }
 
 #mu-testimonials::before {
-	background: rgba(0,0,0,0.9);
+	background: #4b0082;
 	bottom: 0;
 	content: '';
 	left: 0;
@@ -861,6 +861,9 @@ button:focus {
 
 #mu-contact {
 	background-color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -985,7 +988,31 @@ button:focus {
 #mu-google-map iframe{
     pointer-events: none;
 }
-
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: #e0b0ff;
+	color: #000;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+	background-color:#7851a9;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+	padding: 0 18px;
+	background-color: plum;
+	display: none;
+	overflow: hidden;
+  }
 
 /*--------------------*/
 /* FOOTER */
